@@ -8,7 +8,7 @@ pipeline {
  stages {
  stage(‘Cloning Git’) {
  steps {
- git([url: ‘https://github.com/adithyak21/simple-docker.git', branch: ‘main’])
+ git([url: ‘git@github.com:dhruvexecutive07/node.git', branch: ‘main’])
  }
  }
  stage(‘Building image’) {
