@@ -6,7 +6,7 @@ pipeline {
  }
  agent any
  stages {
- stage(‘Cloning Git’) {
+ stage {
  steps {
  git([url: ‘https://github.com/dhruvexecutive07/node.git', branch: ‘main’])
  }
